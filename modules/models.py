@@ -6,6 +6,7 @@ from . import siren
 from . import wire
 from . import wire2d
 from . import incode
+from . import paracnet
 
 
 model_dict = {'gauss': gauss,
@@ -15,7 +16,8 @@ model_dict = {'gauss': gauss,
               'wire': wire,
               'wire2d': wire2d,
               'ffn': None,
-              'incode': incode}
+              'incode': incode,
+              'parac': paracnet}
 
 
 class INR():
